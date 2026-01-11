@@ -1,19 +1,26 @@
-A clean and responsive Kanban Board application built using React and TypeScript.
-It helps manage tasks across three columns: Todo, In Progress, and Done.
+# Kanban Board (React + TypeScript)
 
-🚀 Features
-Add new cards to any column
-Delete existing cards
-Edit card titles
-Responsive layout (mobile & desktop)
-Clean and colorful UI
-Component-based structure (Board → Column → Card)
-🛠 Tech Stack
-React
-TypeScript
-Vite
-CSS
-📂 Project Structure
+A clean and responsive Kanban Board application built using **React** and **TypeScript**.
+It helps manage tasks across three columns: **Todo**, **In Progress**, and **Done**.
+
+## 🚀 Features
+
+- Add new cards to any column
+- Delete existing cards
+- Edit card titles
+- Responsive layout (mobile & desktop)
+- Clean and colorful UI
+- Component-based structure (Board → Column → Card)
+
+## 🛠 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS
+
+## 📂 Project Structure
+
 kanban-board/
 ├── dist/                   # Build output (after npm run build)
 ├── node_modules/           # Dependencies
@@ -35,5 +42,5 @@ kanban-board/
 ├── tsconfig.json           # TypeScript Configuration
 └── vite.config.ts          # Vite Configuration
 
-
-done all things please check it it any error please let me know : email : akhilsingh070307@gmail.com
+## Contact
+Email: akhilsingh070307@gmail.com
