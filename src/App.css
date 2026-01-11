@@ -1,0 +1,96 @@
+.board {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.column-header {
+  color: white;
+  padding: 12px 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo {
+  background: #1e88e5;
+}
+
+.progress {
+  background: #fb8c00;
+}
+
+.done {
+  background: #43a047;
+}
+
+.card {
+  background: white;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #1e88e5;
+}
+
+.progress-card {
+  border-left-color: #fb8c00;
+}
+
+.done-card {
+  border-left-color: #43a047;
+}
+
+.add-btn {
+  width: 90%;
+  margin: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+}
+
+.footer-credits {
+  text-align: center;
+  padding: 20px;
+  font-weight: 800;
+  background: #f5f7fb;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.highlight-name {
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.highlight-lab {
+  background: linear-gradient(90deg, #ff9900, #00ff00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
